@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Gowtham2003/tgsession#readme",
   "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
     "input": "^1.0.1",
     "telegram": "^1.5.13"
   }
