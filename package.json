@@ -1,0 +1,26 @@
+{
+  "name": "tgsession",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowtham2003/tgsession.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Gramjs",
+    "Telethon"
+  ],
+  "author": "gowtham2003",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gowtham2003/tgsession/issues"
+  },
+  "homepage": "https://github.com/Gowtham2003/tgsession#readme",
+  "dependencies": {
+    "input": "^1.0.1",
+    "telegram": "^1.5.13"
+  }
+}
