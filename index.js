@@ -17,14 +17,8 @@ Logger.setLevel("none");
   )} ${chalk.bold.greenBright("TG Session Generator")}`;
   const box = boxen(welcome, { padding: 1, borderColor: "cyan" });
 
-  const errorWarning =
-    chalk.bold.redBright("Info: ") +
-    chalk.yellow(
-      "You May See An Error Called NetSocket. Feel Free to Ignore it \n\n"
-    );
   console.log(box);
 
-  console.log(errorWarning);
   const apiId = await input.text("API ID :");
   if (!apiId) {
     console.log(`${chalk.bold.redBright("Error No Id Provided")}`);
