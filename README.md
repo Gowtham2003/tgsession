@@ -1,6 +1,11 @@
 # TG Session - Telegram Session Generator
 
-![npm](https://img.shields.io/npm/dw/tgsession?label=NPM%20DownloadS&style=for-the-badge)
+<a aria-label="npm downloads" href="https://www.npmjs.com/package/tgsession">
+    <img alt="" src="https://img.shields.io/npm/dw/tgsession.svg?label=NPM%20Downloads&style=for-the-badge&labelColor=000000">
+</a>
+<a aria-label="License" href="https://github.com/Gowtham2003/tgsession/blob/main/README.md">
+    <img alt="" src="https://img.shields.io/npm/l/tgsession.svg?style=for-the-badge&labelColor=000000">
+</a>
 
 Simple Telethon and GramJS string session generator written in GramJS
 
