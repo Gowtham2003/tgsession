@@ -23,6 +23,26 @@ Simple Telethon and GramJS string session generator written in GramJS
 npx tgsession
 
 ```
+
+Or You can globally install on your system 
+
+By Using npm 
+
+```
+
+npm i -g tgsession 
+
+```
+
+Or Using Yarn 
+```
+
+yarn global add tgsession 
+
+```
+
+Then Run ` tgsession ` in your terminal
+
 ### Supported Libraries
 * Telethon (Python)
 * GramJS (Javascript/Typescript)
