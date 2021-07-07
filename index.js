@@ -24,6 +24,10 @@ Logger.setLevel("none");
     console.log(`${chalk.bold.redBright("Error No Id Provided")}`);
     console.log(`${chalk.red("Exitting...")}`);
     process.exit(0);
+  } else if (isNaN(apiId)) {
+    console.log(`${chalk.bold.redBright("API ID must be a number")}`);
+    console.log(`${chalk.red("Exitting...")}`);
+    process.exit(0);
   }
   const apiHash = await input.text("API HASH :");
   if (!apiHash) {
@@ -32,7 +36,7 @@ Logger.setLevel("none");
     process.exit(0);
   }
   const stringSession = new StringSession("");
-  const client = new TelegramClient(stringSession, apiId, apiHash, {
+  const client = new TelegramClient(stringSession, Number(apiId), apiHash, {
     connectionRetries: 5,
   });
   await client.start({
